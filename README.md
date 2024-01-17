@@ -336,3 +336,46 @@ https://localhost/api/clients
 
 ![HTTPSapi](images/16.7.png)
 
+## Optional 2: Integration API - static Web site
+
+J'ai commencé par créer un fichier script.js dans le même répertoire que mon fichier index.html
+J'ai essayé de réaliser le code le plus simple possible permettant de récupérer les données et les afficher sur la page web
+plus exactement dans la console de la page. Pour ce faire j'ai utilisé le code suivant :
+```
+// script.js
+
+// Fonction asynchrone pour récupérer et afficher les clients
+async function logClients() {
+try {
+// Effectuer une requête Fetch vers l'URL des clients
+const response = await fetch("https://localhost/api/clients");
+
+        // Vérifier si la requête a réussi (statut HTTP 200)
+        if (!response.ok) {
+            throw new Error(`Erreur HTTP! Statut: ${response.status}`);
+        }
+
+        // Convertir la réponse en format JSON
+        const clients = await response.json();
+
+        // Afficher les clients dans la console
+        console.log(clients);
+    } catch (error) {
+        // Gérer les erreurs de manière appropriée
+        console.error("Erreur lors de la récupération des clients:", error);
+    }
+}
+
+// Appeler la fonction pour récupérer et afficher les clients
+logClients();
+```
+
+Après cela, j'ai ajouté dans l'entête du fichier html le chemin du fichier script
+comme ceci : 
+```
+<script src="script.js"></script>
+```
+Pour tester le fonctionnement, j'ai ouvert la page web static. 
+Puis en faisant clic droit sur la page, sélectionner l'option Inspecter. Choisissez ensuite la console.
+https://localhost/
+![dataStaticWeb](images/17.9.png)
