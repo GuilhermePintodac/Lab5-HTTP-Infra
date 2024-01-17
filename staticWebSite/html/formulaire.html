@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333; /* Couleur du texte sur votre page d'accueil */
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <title>Formulaire</title>
+</head>
+<body>
+    <form>
+        <label for="nom" style="color: #333;">Nom:</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="prenom" style="color: #333;">Prénom:</label>
+        <input type="text" id="prenom" name="prenom" required>
+
+        <label for="contact" style="color: #333;">Contact (Téléphone):</label>
+        <input type="tel" id="contact" name="contact" required>
+
+        <label for="marque" style="color: #333;">Marque de la voiture:</label>
+        <input type="text" id="marque" name="marque" required>
+
+        <label for="modele" style="color: #333;">Modèle de la voiture:</label>
+        <input type="text" id="modele" name="modele" required>
+
+        <label for="matricule" style="color: #333;">Numéro de matricule:</label>
+        <input type="text" id="matricule" name="matricule" required>
+
+        <button type="submit">Envoyer</button>
+    </form>
+</body>
+</html>

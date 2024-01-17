@@ -1,0 +1,140 @@
+body{
+font: normal small Arial, Helvetica, sans-serif;
+color: #636D78;
+text-align:justify;
+font-size:13px;
+margin-top:0px;
+margin-left:100px;
+margin-right:0px;
+margin-bottom:0px;
+background-color:#272C32;
+}
+#border
+{width:779px;
+float:left;
+}
+#left10
+{width:310px;
+height:260px;
+float:left;}
+#car
+{width:261px;
+height:260px;
+float:left;
+background-image:url(images/cars.jpg); background-repeat:no-repeat;}
+#links-bg
+{width:208px;
+height:260px;
+float:left;
+background-color:#585F65;}
+.name
+{color:#ffffff;
+padding-top:100px;
+font-family:"Century Gothic", "Trebuchet MS", "Arial Narrow", Arial, sans-serif;
+text-transform:uppercase;
+font-size:32px;}
+.tag
+{color:#ffffff;
+padding-left:4px;
+padding-top:4px;}
+#headingbg
+{
+background-color:#1A1D22;
+height:40px;
+line-height:40px;
+clear:both;
+color:#7F8A97;
+font-family:arial;
+text-transform:uppercase;
+font-weight:bold;
+padding-left:15px;
+}
+.headingbg2
+{
+background-color:#951E2B;
+height:5px;
+font-size:1px;
+}
+#bottom
+{height:40px;
+width:779px;
+line-height:40px;
+background-color:#1A1D22;
+float:left;}
+#main
+{padding-right:10px;
+padding-top:10px;
+padding-bottom:10px;}
+.sap
+{width:1px;
+float:left;
+color:#778492;
+text-align:center;
+}
+.bottomlink
+{width:152px;
+text-align:center;
+float:left;
+}
+.bottomlink a
+{color:#778492;
+text-decoration:underline;
+}
+.bottomlink a:hover
+{color:#778492;
+text-decoration:none;}
+.sap2
+{width:1px;
+height:32px;
+float:right;
+}
+.toplinks
+{line-height:52px;
+width:188px;
+font-weight:bold;
+text-transform:uppercase;
+padding-left:20px;}
+.toplinks a
+{color:#C2C8D0;
+text-align:center;
+display:block;
+height:52px;
+background-image:url(images/off.jpg); background-repeat:no-repeat;
+text-decoration:none;
+}
+.toplinks a:hover
+{color:#C2C8D0;
+background-image:url(images/on.jpg); background-repeat:no-repeat;}
+a{color:#ffffff;
+text-decoration:underline;
+}
+a:hover
+{color:#ffffff;
+text-decoration:none;
+}
+#header
+{background-image:url(images/bg.jpg); background-repeat:repeat-x;
+height:140px;}
+#right
+{width:208px;
+float:left;}
+#left
+{width:571px;
+float:left;}
+#quick_heading
+{line-height:40px;
+background-color:#951E2B;
+width:198px;
+font-size:18px;
+color:#C2C8D0;
+padding-left:10px;
+height:40px;}
+.quicklinks
+{padding-left:10px;
+line-height:33px;
+height:33px;}
+.quicklinks a
+{color:#C2C8D0;
+font-weight:bold;}
+.quicklinks a:hover
+{color:#ffffff;}

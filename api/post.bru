@@ -1,0 +1,21 @@
+meta {
+  name: post
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:7777/api/clients/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nom": "Paul",
+    "voiture": {
+      "marque": "Porsche",
+      "panne": "problème injecteur"
+    }
+  }
+}
