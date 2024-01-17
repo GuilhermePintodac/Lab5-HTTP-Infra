@@ -270,7 +270,9 @@ Pour ajouter les cookies, il suffit d'ajouter ces deux lignes dans le service ht
 ![Wireshark2](images/13.6.png)
 
 Pour vérifier le Round-Robin avec le webapp, on lance cette page.
+
 http://localhost/api/clients
+
 Puis on lance la commande 
 ```
 docker-compose logs -f webapp
@@ -378,4 +380,5 @@ comme ceci :
 Pour tester le fonctionnement, j'ai ouvert la page web static. 
 Puis en faisant clic droit sur la page, sélectionner l'option Inspecter. Choisissez ensuite la console.
 https://localhost/
+
 ![dataStaticWeb](images/17.9.png)
